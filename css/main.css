@@ -28,9 +28,9 @@
 	margin-left: 5px;
 }
 
-.navbut:hover {
-	background-color: rgba(15,15,15,0.7);
-}
+/*.navbut:hover {
+	background-color: rgb(15,15,15);
+}*/
 
 .navbut a {
 	position: absolute;
