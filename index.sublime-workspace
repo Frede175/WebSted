@@ -1,0 +1,760 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"temas",
+				"Teamspoint"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"team",
+				"team_names"
+			],
+			[
+				"cre",
+				"createTextNode"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ap",
+				"append	.append()"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"show",
+				"show	.show()"
+			],
+			[
+				"clic",
+				"click	.click()"
+			],
+			[
+				"un",
+				"unbind	.unbind()"
+			],
+			[
+				"reader",
+				"readerResult"
+			],
+			[
+				"file",
+				"fileData_split"
+			],
+			[
+				"rea",
+				"readerResult"
+			],
+			[
+				"parse",
+				"parseInt"
+			],
+			[
+				"cl",
+				"clickmenu"
+			],
+			[
+				"data",
+				"data_split"
+			],
+			[
+				"tema",
+				"teamnumber"
+			],
+			[
+				"q",
+				"questions_array"
+			],
+			[
+				"sa",
+				"save_state"
+			],
+			[
+				"save",
+				"save_state"
+			],
+			[
+				"sj",
+				"subjects_array"
+			],
+			[
+				"su",
+				"subjects_array"
+			],
+			[
+				"sub",
+				"subjects_array"
+			],
+			[
+				"id",
+				"id_split"
+			],
+			[
+				"subje",
+				"subjects_array"
+			],
+			[
+				"subj",
+				"subject_pressed"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"subjec",
+				"subject_state"
+			],
+			[
+				"create",
+				"create_array"
+			],
+			[
+				"acti",
+				"activeId_st"
+			],
+			[
+				"Ac",
+				"activeId_st"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"qu",
+				"questions"
+			],
+			[
+				"n",
+				"nSubjects"
+			],
+			[
+				"btn",
+				"btn_state"
+			],
+			[
+				"lao",
+				"load_btn_state"
+			],
+			[
+				"upd",
+				"update_btn_state"
+			],
+			[
+				"load",
+				"load_btn_state"
+			],
+			[
+				"up",
+				"update_btn_state"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"ques",
+				"questions_array"
+			],
+			[
+				"dis",
+				"display_question"
+			],
+			[
+				"Q",
+				"questions_array"
+			],
+			[
+				"p",
+				"p	Tag"
+			],
+			[
+				"TEAm",
+				"TEAMPOINT"
+			],
+			[
+				"TEA",
+				"TEAMPOINT"
+			],
+			[
+				"TEAM",
+				"TEAMPOINT"
+			],
+			[
+				"bros",
+				"browser_width"
+			],
+			[
+				"bro",
+				"browser_width"
+			],
+			[
+				"tr",
+				"trhead"
+			],
+			[
+				"br",
+				"browser_height"
+			],
+			[
+				"b",
+				"browser_height"
+			],
+			[
+				"win",
+				"window"
+			],
+			[
+				"ar",
+				"attr	.attr() - single"
+			],
+			[
+				"at",
+				"attr	.attr() - single"
+			],
+			[
+				"a",
+				"attr	.attr() - single"
+			],
+			[
+				"hi",
+				"height	.height()"
+			],
+			[
+				"cil",
+				"clickbtn"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"my",
+				"mysqil"
+			],
+			[
+				"te",
+				"teamnumber"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"this",
+				"thisId"
+			],
+			[
+				"pars",
+				"parseInt"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"select",
+				"select-lists"
+			],
+			[
+				"li",
+				"lists"
+			],
+			[
+				"close",
+				"closePopup"
+			],
+			[
+				"d",
+				"div	Tag"
+			],
+			[
+				"colse",
+				"closePopup"
+			],
+			[
+				"di",
+				"dimmer"
+			],
+			[
+				"po",
+				"popup"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"e",
+				"event"
+			],
+			[
+				"attr",
+				"setAttribute"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"chaN",
+				"changeTeam"
+			],
+			[
+				"clea",
+				"ClearTimer"
+			],
+			[
+				"Qu",
+				"QuestionsTimer"
+			],
+			[
+				"btnQ",
+				"btnQ_enable"
+			],
+			[
+				"remo",
+				"removeClass	.removeClass()"
+			],
+			[
+				"cont",
+				"continue"
+			],
+			[
+				"fiel",
+				"fileData_split_split"
+			],
+			[
+				"fil",
+				"fileData_split_split"
+			],
+			[
+				"read",
+				"readNumber"
+			],
+			[
+				"par",
+				"parseInt"
+			],
+			[
+				"TE",
+				"TEAMPOINT"
+			],
+			[
+				"man",
+				"main_table"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"cu",
+				"countdown_timer"
+			],
+			[
+				"on",
+				"onload"
+			],
+			[
+				"File",
+				"FileReader"
+			],
+			[
+				"text",
+				"textType"
+			],
+			[
+				"co",
+				"countdown_timer"
+			],
+			[
+				"inn",
+				"innerHTML"
+			],
+			[
+				"timer",
+				"timer_countdown"
+			],
+			[
+				"HE",
+				"Height"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"ds",
+				"disabled"
+			],
+			[
+				"ea",
+				"each	.each()"
+			],
+			[
+				"User",
+				"UserName"
+			],
+			[
+				"U",
+				"UserLastname"
+			],
+			[
+				"u",
+				"UserFirstname"
+			],
+			[
+				"cr",
+				"crypt"
+			],
+			[
+				"mc",
+				"mcrypt_create_iv"
+			],
+			[
+				"base",
+				"base64_encode"
+			],
+			[
+				"l",
+				"link	Tag"
+			],
+			[
+				"DI",
+				"div	Tag"
+			],
+			[
+				"t",
+				"textarea	Tag"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"du",
+				"document"
+			],
+			[
+				"TEa",
+				"TEAMPOINT"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"ad",
+				"add	.add()"
+			],
+			[
+				"TEAMS",
+				"TEAMSPOINT_"
+			],
+			[
+				"wt",
+				"wtable"
+			],
+			[
+				"an",
+				"appendChild"
+			],
+			[
+				"td",
+				"tbody"
+			],
+			[
+				"wi",
+				"width	.width()"
+			],
+			[
+				"set",
+				"setAttribute"
+			],
+			[
+				"fin",
+				"function"
+			],
+			[
+				"inner",
+				"innerHeight	.innerHeight()"
+			],
+			[
+				"ht",
+				"htable"
+			],
+			[
+				"bo",
+				"table_box"
+			],
+			[
+				"re",
+				"removeprop	.removeProp()"
+			],
+			[
+				"s",
+				"stop	.stop()"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: jQuery on handler"
+			],
+			[
+				"h",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/GitHub/Jeopardy/make.html",
+		"/D/GitHub/Jeopardy/includes/psl-config.php",
+		"/D/GitHub/Jeopardy/includes/db_connect.php",
+		"/D/GitHub/Jeopardy/.htpasswd",
+		"/D/GitHub/Jeopardy/.htaccess",
+		"/D/GitHub/Jeopardy/login.php",
+		"/D/GitHub/Jeopardy/js/make.js",
+		"/D/GitHub/Jeopardy/js/app.js",
+		"/C/Users/Frederik Rosenberg/Documents/GitHub/Jeopardy/Jeopardy.php",
+		"/C/Users/Frederik Rosenberg/Documents/GitHub/Jeopardy/css/main.css",
+		"/C/Users/Frederik Rosenberg/Documents/GitHub/Jeopardy/js/app.js",
+		"/D/OneDrive/Jeopardy/SaveToDataBase.php",
+		"/D/OneDrive/Jeopardy/main.css",
+		"/D/OneDrive/Jeopardy/Jeopardy.html",
+		"/D/OneDrive/Dokumenter/Website 2/Jeopardy.html",
+		"/D/Website/Furuno.htlm",
+		"/C/Program Files/MySQL/MySQL Server 5.6/lib/mysqlclient.lib",
+		"/D/OneDrive/Jeopardy/app.js",
+		"/D/OneDrive/Website 2/app.js",
+		"/D/OneDrive/Website 2/Jeopardy.sublime-workspace",
+		"/D/OneDrive/Website 2/Jeopardy-Frederik-Mac-2.sublime-workspace",
+		"/D/OneDrive/Website 2/Jeopardy.html",
+		"/C/ROR/dev/WebProject/app/views/layouts/application.html.erb",
+		"/Z/uploadToServer.php",
+		"/Z/Style.css",
+		"/C/Users/Frederik Rosenberg/AppData/Local/Temp/Rar$DIa0.951/README",
+		"/Z/index.php",
+		"/Z/Website.php",
+		"/C/Users/Frederik Rosenberg/SkyDrive/Website 2/Jeopardy.html",
+		"/C/Users/Frederik Rosenberg/SkyDrive/Website 2/Question",
+		"/C/Users/Frederik Rosenberg/SkyDrive/Website 2/js/app.js",
+		"/F/Website/Furuno.htlm",
+		"/C/Users/Frederik Rosenberg/SkyDrive/Website 2/HTML.html",
+		"/F/Website/js/app.js",
+		"/F/Website/CSS-style.css",
+		"/F/Website/js/bootstrap.min.js",
+		"/F/Website/App.js",
+		"/D/Website/App.js",
+		"/D/Website/CSS-style.css",
+		"/D/Website/Furuno.sublime-project"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"team",
+			"td_team",
+			"td_teams",
+			"TEAMS",
+			"table_box_subject",
+			"			\n",
+			"update_questions_array",
+			"load_btn_state",
+			"update_btn_state",
+			"();\n",
+			"btn_state",
+			"();\n",
+			"\n	$('#remove-subject').unbind().click(function(event) {\n		update_btn_state()\n		nSubjects--;\n		load_btn_state();\n		update_questions_array(2);\n		update();\n	});\n\n	$('#add-question').unbind().click(function(event) {\n		update_btn_state();\n		nQuestions++;\n		load_btn_state();\n		update_questions_array(3);\n		update();\n	});\n\n	$('#remove-question').unbind().click(function(event) {\n		update_btn_state();\n		nQuestions--;",
+			"();\n",
+			");\n",
+			"--;\n",
+			"();\n",
+			"++;\n		load_btn_state();\n		",
+			"();\n",
+			"text",
+			"update();",
+			"menu",
+			"gener",
+			"none",
+			"50",
+			"alert",
+			"[];\n",
+			"btn_id",
+			"description",
+			");",
+			">",
+			"buffer"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"update_array",
+			"load_state",
+			"update_state",
+			"generatetable();",
+			"btn_id_save"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 54.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
