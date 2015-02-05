@@ -8,6 +8,7 @@
 		<LINK REL="SHORTCUT ICON" HREF="img/logo.png">
 	</head>
 	<body>
+<!--header-->
 		<div id="header">
 			<div id="nav">
 				<div id ="but1" class="navbut"><a href="index.html">Hjem</a></div>
@@ -20,7 +21,7 @@
 				<img src="img/logo.png" id="logo">
 			</div>
 		</div>
-
+<!--background on page + intro-->
 		<div id="back">
 			<img src="img/formel collage.png" id="img1">
 			<h1 id="overskr">Formler</h1>
@@ -35,9 +36,14 @@
 			</div>
 
 			<div class="sidesep" id="sep2"> </div>
-
+<!--Formel for strømstyrke afsnit-->
 			<h1 class="underov">Formel for str&oslash;mstyrke "I"</h1>
 			¨<h1 class="underov" id="formel">Formel: I = Q/t</h1>
+
+			<img src="img/formel collage.png" id="img3">
+			<!--<img src="img/formel collage2.png" id="img4">-->
+			<!--<img src="img/formel collage3.png" id="img5">-->
+			<img src="img/formel collage4.png" id="img6">
 
 			<form id="formel_strmstyrke" onkeypress='return event.charCode >= 48 && event.charCode <= 57 || event.charCode == 44'><span>
 				Str&oslash;mstyrke:<br>
@@ -50,6 +56,30 @@
 				<input type="text" name="t" class="field"> i sekunder (t)!
 			</span></form>
 			<button type="button" id="sub1" name="sub1">Udregn</button>
+
+			<div class="sidesep" id="sep3"> </div>
+<!--Formel for effekt afsnit-->
+						<h1 class="underov" id="uo2">Formel for Effekt "P"</h1>
+			¨<h1 class="underov" id="formel2">Formel: P = U * I</h1>
+
+			<img src="img/formel collage.png" id="img7">
+			<!--<img src="img/formel collage2.png" id="img8">-->
+			<!--<img src="img/formel collage3.png" id="img9">-->
+			<img src="img/formel collage4.png" id="img10">
+
+			<form id="formel_effekt" onkeypress='return event.charCode >= 48 && event.charCode <= 57 || event.charCode == 44'><span>
+				Effekt:<br>
+				<input type="text" name="P" class="field"> i watt (P)!
+				<br>
+				Sp&aelig;ndningsforskel:<br>
+				<input type="text" name="U" class="field"> i volt (U)!
+				<br>
+				Str&oslash;mstyrke:<br>
+				<input type="text" name="I" class="field"> i ampere (I)!
+			</span></form>
+			<button type="button" id="sub2" name="sub1">Udregn</button>
+
+			<div class="sidesep" id="sep4"> </div>
 
 		</div>
 
