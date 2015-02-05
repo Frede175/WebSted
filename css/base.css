@@ -27,6 +27,11 @@
 	cursor: pointer;
 	display: inline-block;
 	margin-left: 5px;
+	transition: 1s;
+
+	&:hover {
+		background-color: rgba(15,15,15,0.7);
+	}
 }
 
 /*.navbut:hover {
