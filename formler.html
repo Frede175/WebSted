@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Electricity</title>
-		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<link rel="stylesheet" type="text/css" href="css/base.css">
 		<link rel="stylesheet" type="text/css" href="css/formler.css">
 		<LINK REL="SHORTCUT ICON" HREF="img/logo.png">
@@ -37,7 +37,7 @@
 
 			<div class="sidesep" id="sep2"> </div>
 <!--Formel for strømstyrke afsnit-->
-			<h1 class="underov">Formel for str&oslash;mstyrke "I"</h1>
+			<h1 class="underov">Formel for strømstyrke "I"</h1>
 			¨<h1 class="underov" id="formel">Formel: I = Q/t</h1>
 
 			<img src="img/formel collage.png" id="img3">
@@ -47,13 +47,13 @@
 
 			<form id="formel_strmstyrke" onkeypress='return event.charCode >= 48 && event.charCode <= 57 || event.charCode == 44'><span>
 				Str&oslash;mstyrke:<br>
-				<input type="text" name="I" class="field"> i ampere (I)!
+				<input type="text" id="I_strm" class="field"> i ampere (I)!
 				<br>
 				Ladning:<br>
-				<input type="text" name="Q" class="field"> i coulomb (Q)!
+				<input type="text" id="Q" class="field"> i coulomb (Q)!
 				<br>
 				Tid:<br>
-				<input type="text" name="t" class="field"> i sekunder (t)!
+				<input type="text" id="t" class="field"> i sekunder (t)!
 			</span></form>
 			<button type="button" id="sub1" name="sub1">Udregn</button>
 
@@ -69,13 +69,13 @@
 
 			<form id="formel_effekt" onkeypress='return event.charCode >= 48 && event.charCode <= 57 || event.charCode == 44'><span>
 				Effekt:<br>
-				<input type="text" name="P" class="field"> i watt (P)!
+				<input type="text" id="P" class="field"> i watt (P)!
 				<br>
 				Sp&aelig;ndningsforskel:<br>
-				<input type="text" name="U" class="field"> i volt (U)!
+				<input type="text" id="U" class="field"> i volt (U)!
 				<br>
 				Str&oslash;mstyrke:<br>
-				<input type="text" name="I" class="field"> i ampere (I)!
+				<input type="text" id="I_effekt" class="field"> i ampere (I)!
 			</span></form>
 			<button type="button" id="sub2" name="sub1">Udregn</button>
 
