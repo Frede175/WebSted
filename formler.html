@@ -30,13 +30,26 @@
 
 			<div id="textbox">
 				<p id="explenation">
-					Denne side er fyldt med en masse formel udregnere, en til hver af de forskellige formler indenfor elektricitet. Kender du bare nogle af tallene i de forskellige formler kan computeren selv regne det sidste ud :)
+					Denne side er fyldt med en masse formel udregnere, en til hver af de forskellige formler indenfor elektricitet. Kender du bare nogle af v&aelig;rdierne i de forskellige formler kan computeren selv regne den sidste ud :)
 				</p>
 			</div>
 
 			<div class="sidesep" id="sep2"> </div>
 
-			<h1 class="underov">Formel for strømstyrke "I"</h1>
+			<h1 class="underov">Formel for str&oslash;mstyrke "I"</h1>
+			¨<h1 class="underov" id="formel">Formel: I = Q/t</h1>
+
+			<form id="formel_strmstyrke" onkeypress='return event.charCode >= 48 && event.charCode <= 57 || event.charCode == 44'><span>
+				Str&oslash;mstyrke:<br>
+				<input type="text" name="I" class="field"> i ampere (I)!
+				<br>
+				Ladning:<br>
+				<input type="text" name="Q" class="field"> i coulomb (Q)!
+				<br>
+				Tid:<br>
+				<input type="text" name="t" class="field"> i sekunder (t)!
+			</span></form>
+			<button type="button" id="sub1" name="sub1">Udregn</button>
 
 		</div>
 
