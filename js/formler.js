@@ -35,7 +35,7 @@ $(document).ready(function() {
 	//Formel for effekt!
 	$('#sub2').unbind().click(function(event) {
 		var p = $('#P').val();
-		var u = $('#U').val();
+		var u = $('#U_effekt').val();
 		var i = $('#I_effekt').val();
 
 		if(i == "" || p == "" || u == ""){
@@ -52,7 +52,40 @@ $(document).ready(function() {
 			else if(u == "" && i != "" && p != ""){
 				var result = p/i;
 				result = result.toFixed(2);
-				$('#U').val(result);
+				$('#U_effekt').val(result);
+			}
+			else
+			{
+				alert("Du er nød til at kende mindst to tal!");
+			}
+		}
+		else
+		{
+			alert("Du har alle 3 input, ikke nogen grund til at udregne noget!");
+		}
+	});
+
+	//Formel for resistans
+	$('#sub3').unbind().click(function(event) {
+		var r = $('#R').val();
+		var u = $('#U_resistans').val();
+		var i = $('#I_resistans').val();
+
+		if(i == "" || r == "" || u == ""){
+			if(i == "" && r != "" && u != ""){
+				var result = u/r;
+				result = result.toFixed(2);
+				$('#I_resistans').val(result);
+			}
+			else if(r == "" && i != "" && u != ""){
+				var result = u/i;
+				result = result.toFixed(2);
+				$('#R').val(result);
+			}
+			else if(u == "" && i != "" && r != ""){
+				var result = r*i;
+				result = result.toFixed(2);
+				$('#U_resistans').val(result);
 			}
 			else
 			{
