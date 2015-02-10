@@ -1,0 +1,121 @@
+#overskr {
+	text-align: center;
+	font-family: Times;
+	display: inline-block;
+	position: relative;
+	top: 120px; left: 45%;
+	font-size: 70px;
+	margin-bottom: 20px;
+}
+
+.sidesep {
+	width: 90%;
+	height: 2px;
+	background-color: #333333;
+	position: absolute;
+	clear: both;
+	left: 5%;
+}
+
+#sep1 {
+	top: 280px;
+}
+
+#sep2 {
+	top: 390px;
+}
+
+#img1 {
+	display: inline-block;
+	width: 400px;
+	height: 200px;
+	margin-right: 30px;
+	top: 80px;
+	position: absolute;
+	left: 20px;
+}
+
+#img2 {
+	display: inline-block;
+	width: 400px;
+	height: 200px;
+	margin-left: 30px;
+	top: 80px;
+	position: relative;
+	float: right;
+	right: 20px;
+
+}
+
+#textbox {
+	position: absolute;
+	width: 80%;
+	min-height: 50px;
+	left: 10%;
+	top: 325px;
+}
+
+#explenation {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.underov {
+	font-size: 35px;
+	text-align: center;
+	position: absolute;
+	top: 460px;
+	left: 43.5%;
+}
+
+#spml1 {
+	font-size: 24px;
+	top: 505px;
+	font-weight: 500;
+	left: 37%;
+}
+
+#sp1 {
+	top: 580px;
+	position: absolute;
+	left: 46%;
+}
+
+/*********************************************************************/
+
+#s2 {
+	top: 790px;
+}
+
+#spml2 {
+	font-size: 24px;
+	top: 835px;
+	font-weight: 500;
+	left: 33.5%;
+}
+
+#sp2 {
+	top: 910px;
+	position: absolute;
+	left: 46%;
+}
+
+/*********************************************************************/
+
+#s3 {
+	top: 1120px;
+}
+
+#spml3 {
+	font-size: 24px;
+	top: 1165px;
+	font-weight: 500;
+	left: 36%;
+}
+
+#sp3 {
+	top: 1240px;
+	position: absolute;
+	left: 46%;
+}

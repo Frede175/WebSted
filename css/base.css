@@ -5,6 +5,7 @@
 
 #header {
 	width: 100%;
+	min-width: 1366px;
 	height: 70px;
 	background-color: #222222;
 	position: fixed;
@@ -76,8 +77,16 @@
 	margin-right: 40px;
 }
 
-#back {
+.back {
 	background-color: #FFF8A6;
 	width: 100%;
+	min-width: 1366px;
+}
+
+#fback {
 	min-height: 1885px;
+}
+
+#qback {
+	min-height: 2500px;
 }

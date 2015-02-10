@@ -8,6 +8,10 @@
 	margin-bottom: 20px;
 }
 
+#back {
+	min-height: 1885px;
+}
+
 .sidesep {
 	width: 90%;
 	height: 2px;
@@ -244,7 +248,7 @@
 }
 
 span {
-	font-weight: 700;
+	font-weight: 500;
 	font-size: 25px;
 }
 
