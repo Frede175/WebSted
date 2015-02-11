@@ -119,3 +119,65 @@
 	position: absolute;
 	left: 46%;
 }
+
+/********************************************************************/
+
+#s4 {
+	top: 1450px;
+}
+
+#spml4 {
+	font-size: 24px;
+	top: 1495px;
+	font-weight: 500;
+	left: 38%;
+}
+
+#sp4 {
+	top: 1560px;
+	position: absolute;
+	left: 46%;
+}
+
+/********************************************************************/
+
+#s5 {
+	top: 1770px;
+}
+
+#spml5 {
+	font-size: 24px;
+	top: 1815px;
+	font-weight: 500;
+	left: 33%;
+}
+
+#sp5 {
+	top: 1890px;
+	position: absolute;
+	left: 43%;
+	font-size: 18px;
+}
+
+#tanswer_1 {
+	font-size: 16px;
+}
+
+/**********************************************************************/
+
+#s6 {
+	top: 2100px;
+}
+
+#spml6 {
+	font-size: 24px;
+	top: 2145px;
+	font-weight: 500;
+	left: 15%;
+}
+
+#sp6 {
+	top: 2220px;
+	position: absolute;
+	left: 44%;
+}
