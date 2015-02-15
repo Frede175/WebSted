@@ -2,8 +2,10 @@
 	text-align: center;
 	font-family: Times;
 	display: inline-block;
-	position: relative;
-	top: 120px; left: 40.5%;
+	position: absolute;
+	top: 120px; 
+	left: 0; right: 0;
+	margin: auto;
 	font-size: 70px;
 	margin-bottom: 20px;
 }
@@ -48,7 +50,7 @@
 	margin-right: 30px;
 	top: 80px;
 	position: absolute;
-	left: 20px;
+	left: 2%;
 }
 
 #img2 {
@@ -59,7 +61,7 @@
 	top: 80px;
 	position: relative;
 	float: right;
-	right: 20px;
+	right: 2%;
 
 }
 
@@ -70,7 +72,7 @@
 	margin-right: 30px;
 	top: 420px;
 	position: absolute;
-	left: 20px;
+	left: 2%;
 }
 
 #img4 {
@@ -81,7 +83,7 @@
 	top: 420px;
 	position: absolute;
 	float: right;
-	right: 20px;
+	right: 2%;
 
 }
 
@@ -92,7 +94,7 @@
 	margin-right: 30px;
 	top: 640px;
 	position: absolute;
-	left: 20px;
+	left: 2%;
 }
 
 #img6 {
@@ -103,7 +105,7 @@
 	top: 640px;
 	position: absolute;
 	float: right;
-	right: 20px;
+	right: 2%;
 }
 
 #img7 {
@@ -113,7 +115,7 @@
 	margin-right: 30px;
 	top: 905px;
 	position: absolute;
-	left: 20px;
+	left: 2%;
 }
 
 #img8 {
@@ -124,7 +126,7 @@
 	top: 905px;
 	position: absolute;
 	float: right;
-	right: 20px;
+	right: 2%;
 
 }
 
@@ -135,7 +137,7 @@
 	margin-right: 30px;
 	top: 1125px;
 	position: absolute;
-	left: 20px;
+	left: 2%;
 }
 
 #img10 {
@@ -146,7 +148,7 @@
 	top: 1125px;
 	position: absolute;
 	float: right;
-	right: 20px;
+	right: 2%;
 }
 
 #img11 {
@@ -157,7 +159,7 @@
 	top: 1390px;
 	position: absolute;
 	float: right;
-	right: 20px;
+	right: 2%;
 }
 
 #img12 {
@@ -167,7 +169,7 @@
 	margin-right: 30px;
 	top: 1600px;
 	position: absolute;
-	left: 20px;
+	left: 2%;
 }
 
 #textbox {
@@ -189,56 +191,62 @@
 	text-align: center;
 	position: absolute;
 	top: 460px;
-	left: 34.5%;
+	left: 0; right: 0;
+	margin: auto;
 }
 
 #uo2 {
 	top: 945px;
-	left: 37%;
+	left: 0; right: 0;
+	margin: auto;
 }
 
 #uo3 {
 	top: 1430px;
-	left: 35.5%;
+	left: 0; right: 0;
+	margin: auto;
 }
 
 #formel {
 	font-size: 32px;
 	top: 505px;
 	font-weight: 500;
-	left: 42%;
+	left: 0; right: 0;
+	margin: auto;
 }
 
 #formel2 {
 	top: 990px;
 	font-size: 32px;
 	font-weight: 500;
-	left: 40%;
+	left: 0; right: 0;
+	margin: auto;
 }
 
 #formel3 {
 	top: 1475px;
 	font-size: 32px;
 	font-weight: 500;
-	left: 41%;
+	left: 0; right: 0;
+	margin: auto;
 }
 
 #formel_strmstyrke {
 	top: 570px;
 	position: absolute;
-	left: 36%;
+	left: 37%;
 }
 
 #formel_effekt {
 	top: 1055px;
 	position: absolute;
-	left: 36%;
+	left: 37%;
 }
 
 #formel_resistans {
 	top: 1540px;
 	position: absolute;
-	left: 36%;
+	left: 37%;
 }
 
 .field {
@@ -255,7 +263,9 @@ span {
 #sub1 {
 	width: 150px;
 	height: 45px;
-	top: 780px; left: 39%;
+	top: 780px; 
+	left: 0; right: 0;
+	margin: auto;
 	position: absolute;
 	font-size: 25px;
 }
@@ -263,7 +273,9 @@ span {
 #sub2 {
 	width: 150px;
 	height: 45px;
-	top: 1265px; left: 39%;
+	top: 1265px; 
+	left: 0; right: 0;
+	margin: auto;
 	position: absolute;
 	font-size: 25px;
 }
@@ -271,7 +283,9 @@ span {
 #sub3 {
 	width: 150px;
 	height: 45px;
-	top: 1750px; left: 39%;
+	top: 1750px; 
+	left: 0; right: 0;
+	margin: auto;
 	position: absolute;
 	font-size: 25px;
 }

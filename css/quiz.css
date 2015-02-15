@@ -2,8 +2,11 @@
 	text-align: center;
 	font-family: Times;
 	display: inline-block;
-	position: relative;
-	top: 120px; left: 45%;
+	position: absolute;
+	top: 120px; 
+	/*left: 45%;*/
+	left: 0; right: 0;
+	margin: auto;
 	font-size: 70px;
 	margin-bottom: 20px;
 }
@@ -32,7 +35,7 @@
 	margin-right: 30px;
 	top: 80px;
 	position: absolute;
-	left: 20px;
+	left: 5%;
 }
 
 #img2 {
@@ -43,7 +46,7 @@
 	top: 80px;
 	position: relative;
 	float: right;
-	right: 20px;
+	right: 5%;
 
 }
 
@@ -61,25 +64,29 @@
 	font-weight: 700;
 }
 
+/*********************************************************************/
+
 .underov {
 	font-size: 35px;
 	text-align: center;
 	position: absolute;
 	top: 460px;
-	left: 43.5%;
+	left: 0; right: 0;
+	margin: auto;
 }
 
 #spml1 {
 	font-size: 24px;
 	top: 505px;
 	font-weight: 500;
-	left: 37%;
+	left: 0; right: 0;
+	margin: auto;
 }
 
 #sp1 {
 	top: 580px;
 	position: absolute;
-	left: 46%;
+	left: 47%;
 }
 
 /*********************************************************************/
@@ -92,13 +99,14 @@
 	font-size: 24px;
 	top: 835px;
 	font-weight: 500;
-	left: 33.5%;
+	left: 0; right: 0;
+	margin: auto;
 }
 
 #sp2 {
 	top: 910px;
 	position: absolute;
-	left: 46%;
+	left: 47%;
 }
 
 /*********************************************************************/
@@ -111,13 +119,14 @@
 	font-size: 24px;
 	top: 1165px;
 	font-weight: 500;
-	left: 36%;
+	left: 0; right: 0;
+	margin: auto;
 }
 
 #sp3 {
 	top: 1240px;
 	position: absolute;
-	left: 46%;
+	left: 47%;
 }
 
 /********************************************************************/
@@ -130,13 +139,14 @@
 	font-size: 24px;
 	top: 1495px;
 	font-weight: 500;
-	left: 38%;
+	left: 0; right: 0;
+	margin: auto;
 }
 
 #sp4 {
 	top: 1560px;
 	position: absolute;
-	left: 46%;
+	left: 47%;
 }
 
 /********************************************************************/
@@ -149,7 +159,8 @@
 	font-size: 24px;
 	top: 1815px;
 	font-weight: 500;
-	left: 33%;
+	left: 0; right: 0;
+	margin: auto;
 }
 
 #sp5 {
@@ -173,11 +184,32 @@
 	font-size: 24px;
 	top: 2145px;
 	font-weight: 500;
-	left: 15%;
+	left: 0; right: 0;
+	margin: auto;
 }
 
 #sp6 {
 	top: 2220px;
+	position: absolute;
+	left: 44%;
+}
+
+/***********************************************************************/
+
+#s7 {
+	top: 2430px;
+}
+
+#spml7 {
+	font-size: 24px;
+	top: 2475px;
+	font-weight: 500;
+	left: 0; right: 0;
+	margin: auto;
+}
+
+#sp7 {
+	top: 2550px;
 	position: absolute;
 	left: 44%;
 }

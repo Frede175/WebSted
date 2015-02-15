@@ -80,7 +80,7 @@
 .back {
 	background-color: #FFF8A6;
 	width: 100%;
-	min-width: 1366px;
+	min-width: 1348px;
 }
 
 #fback {
@@ -88,5 +88,13 @@
 }
 
 #qback {
-	min-height: 2500px;
+	min-height: 3000px;
+}
+
+#iback {
+	min-height: 2000px;
+}
+
+#hback {
+	min-height: 2000px;
 }

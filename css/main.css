@@ -1,0 +1,23 @@
+#hometitle {
+	position: absolute;
+	text-align: center;
+	top: 130px;
+	font-size: 57px;
+	left: 40%;
+	font-family: Times;
+	font-weight: 700;
+	font-style: underline;
+}
+
+.sidesep {
+	width: 90%;
+	height: 2px;
+	background-color: #333333;
+	position: absolute;
+	clear: both;
+	left: 5%;
+}
+
+#sep1 {
+	top: 250px;
+}
