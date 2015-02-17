@@ -1,0 +1,248 @@
+#overskr {
+	text-align: center;
+	font-family: Times;
+	display: inline-block;
+	position: absolute;
+	top: 120px; 
+	/*left: 45%;*/
+	left: 0; right: 0;
+	margin: auto;
+	font-size: 70px;
+	margin-bottom: 20px;
+}
+
+.sidesep {
+	width: 90%;
+	height: 2px;
+	background-color: #333333;
+	position: absolute;
+	clear: both;
+	left: 5%;
+}
+
+#sep1 {
+	top: 250px;
+}
+
+/**********************************************************************************/
+
+#imgElMag {
+	position: absolute;
+	float: left;
+	width: 650px;
+	top: 330px;
+	margin-left: 10px;
+}
+
+#pElMag {
+	position: absolute;
+	top: 330px;
+	left: 670px;
+	font-size: 25px;
+}
+
+#dElMag {
+	position: absolute;
+	top: 370px;
+	left: 670px;
+	width: 150px;
+	height: 50px;
+	/*width: 450px;
+	height: 300px;*/
+	border-radius: 5px;
+	background-color: #668AFE;
+}
+
+#buttext1 {
+	position: absolute;
+	top: 15px; left: 2%;
+}
+
+#ElMagtext {
+	position: absolute;
+	top: 100px;
+	left: 5px;
+	display: none;
+}
+
+#dElMag:hover #ElMagtext {
+	display: block;
+}
+
+/****************************************************************************************/
+
+#imgMaskEl {
+	position: absolute;
+	right: 10px;
+	width: 650px;
+	top: 800px;
+}
+
+#pMaskEl {
+	position: absolute;
+	top: 800px;
+	right: 670px;
+	font-size: 25px;
+}
+
+#dMaskEl {
+	position: absolute;
+	top: 840px;
+	right: 670px;
+	width: 150px;
+	height: 50px;
+	/*width: 450px;
+	height: 300px;*/
+	border-radius: 5px;
+	background-color: #668AFE;
+}
+
+#buttext2 {
+	position: absolute;
+	top: 15px; left: 2%;
+}
+
+#MaskEltext {
+	position: absolute;
+	top: 100px;
+	left: 5px;
+	display: none;
+}
+
+#dMaskEl:hover #MaskEltext {
+	display: block;
+}
+
+/***********************************************************************************/
+
+#imgBat {
+	position: absolute;
+	float: left;
+	width: 650px;
+	top: 1730px;
+	margin-left: 10px;
+}
+
+#pBat {
+	position: absolute;
+	top: 1730px;
+	left: 670px;
+	font-size: 25px;
+}
+
+#dBat {
+	position: absolute;
+	top: 1770px;
+	left: 670px;
+	width: 150px;
+	height: 50px;
+	/*width: 450px;
+	height: 300px;*/
+	border-radius: 5px;
+	background-color: #668AFE;
+}
+
+#buttext3 {
+	position: absolute;
+	top: 15px; left: 2%;
+}
+
+#Battext {
+	position: absolute;
+	top: 100px;
+	left: 5px;
+	display: none;
+}
+
+#dBat:hover #Battext {
+	display: block;
+}
+
+/****************************************************************************************/
+
+#imgElInd {
+	position: absolute;
+	right: 10px;
+	width: 650px;
+	top: 2400px;
+}
+
+#pElInd {
+	position: absolute;
+	top: 2400px;
+	right: 670px;
+	font-size: 25px;
+}
+
+#dElInd {
+	position: absolute;
+	top: 2440px;
+	right: 670px;
+	width: 150px;
+	height: 50px;
+	/*width: 450px;
+	height: 300px;*/
+	border-radius: 5px;
+	background-color: #668AFE;
+}
+
+#buttext4 {
+	position: absolute;
+	top: 15px; left: 2%;
+}
+
+#ElIndtext {
+	position: absolute;
+	top: 100px;
+	left: 5px;
+	display: none;
+}
+
+#dElInd:hover #ElIndtext {
+	display: block;
+}
+
+/*******************************************************************************************/
+
+#imgOpf {
+	position: absolute;
+	float: left;
+	width: 650px;
+	top: 3300px;
+	margin-left: 10px;
+}
+
+#pOpf {
+	position: absolute;
+	top: 3300px;
+	left: 670px;
+	font-size: 25px;
+}
+
+#dOpf {
+	position: absolute;
+	top: 3330px;
+	left: 670px;
+	width: 150px;
+	height: 50px;
+	/*width: 450px;
+	height: 300px;*/
+	border-radius: 5px;
+	background-color: #668AFE;
+}
+
+#buttext5 {
+	position: absolute;
+	top: 15px; left: 2%;
+}
+
+#Opftext {
+	position: absolute;
+	top: 100px;
+	left: 5px;
+	display: none;
+}
+
+#dOpf:hover #Opftext {
+	display: block;
+}
