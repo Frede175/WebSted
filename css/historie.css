@@ -45,7 +45,7 @@
 	position: absolute;
 	top: 370px;
 	left: 670px;
-	width: 150px;
+	width: 170px;
 	height: 50px;
 	/*width: 450px;
 	height: 300px;*/
@@ -60,13 +60,8 @@
 
 #ElMagtext {
 	position: absolute;
-	top: 100px;
 	left: 5px;
 	display: none;
-}
-
-#dElMag:hover #ElMagtext {
-	display: block;
 }
 
 /****************************************************************************************/
@@ -89,7 +84,7 @@
 	position: absolute;
 	top: 840px;
 	right: 670px;
-	width: 150px;
+	width: 170px;
 	height: 50px;
 	/*width: 450px;
 	height: 300px;*/
@@ -104,13 +99,8 @@
 
 #MaskEltext {
 	position: absolute;
-	top: 100px;
 	left: 5px;
 	display: none;
-}
-
-#dMaskEl:hover #MaskEltext {
-	display: block;
 }
 
 /***********************************************************************************/
@@ -134,7 +124,7 @@
 	position: absolute;
 	top: 1770px;
 	left: 670px;
-	width: 150px;
+	width: 170px;
 	height: 50px;
 	/*width: 450px;
 	height: 300px;*/
@@ -149,13 +139,8 @@
 
 #Battext {
 	position: absolute;
-	top: 100px;
 	left: 5px;
 	display: none;
-}
-
-#dBat:hover #Battext {
-	display: block;
 }
 
 /****************************************************************************************/
@@ -178,7 +163,7 @@
 	position: absolute;
 	top: 2440px;
 	right: 670px;
-	width: 150px;
+	width: 170px;
 	height: 50px;
 	/*width: 450px;
 	height: 300px;*/
@@ -193,13 +178,8 @@
 
 #ElIndtext {
 	position: absolute;
-	top: 100px;
 	left: 5px;
 	display: none;
-}
-
-#dElInd:hover #ElIndtext {
-	display: block;
 }
 
 /*******************************************************************************************/
@@ -223,7 +203,7 @@
 	position: absolute;
 	top: 3330px;
 	left: 670px;
-	width: 150px;
+	width: 170px;
 	height: 50px;
 	/*width: 450px;
 	height: 300px;*/
@@ -238,11 +218,6 @@
 
 #Opftext {
 	position: absolute;
-	top: 100px;
 	left: 5px;
 	display: none;
-}
-
-#dOpf:hover #Opftext {
-	display: block;
 }

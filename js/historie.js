@@ -1,31 +1,46 @@
 $(document).ready(function() {
 
+	var tabExtended = [false,false,false,false,false];
 
-	$("#dElMag").mouseenter(function() {
+	$("#dElMag").click(function() {
+		if (tabExtended[0] == false) {
 			$(this).animate ({
 				width: "450px",
-				height: "270px",
+				height: "220px",
 				backgroundColor: "rgba(102,138,254,0.5)",
 			}, 250, function() {
 
 			});
-	});
 
-	$("#dElMag").mouseleave(function() {	
+			$("#ElMagtext").show(100);
+			$("#buttext1").hide();
+
+			tabExtended[0] = !tabExtended[0];
+
+		} else {
+
 			$(this).animate ({
-					width: "150px",
+					width: "170px",
 					height: "50px",
 					backgroundColor: "#668AFE",
 			}, 250, function() {
 
 			});
+
+			$("#ElMagtext").hide(100);
+			$("#buttext1").show();
+
+			tabExtended[0] = !tabExtended[0];
+		};
 	});
 
 
 
 
 
-	$("#dMaskEl").mouseenter(function() {
+
+	$("#dMaskEl").click(function() {
+		if (tabExtended[1] == false) {
 			$(this).animate ({
 				width: "610px",
 				height: "715px",
@@ -33,23 +48,35 @@ $(document).ready(function() {
 			}, 250, function() {
 
 			});
-	});
 
-	$("#dMaskEl").mouseleave(function() {	
+			$("#MaskEltext").show(100);
+			$("#buttext2").hide();
+
+			tabExtended[1] = !tabExtended[1];
+
+		} else {
 			$(this).animate ({
-					width: "150px",
+					width: "170px",
 					height: "50px",
 					backgroundColor: "#668AFE",
 			}, 250, function() {
 
 			});
+
+			$("#MaskEltext").hide(100);
+			$("#buttext2").show();
+
+			tabExtended[1] = !tabExtended[1];
+		};
 	});
 
 
 
 
 
-	$("#dBat").mouseenter(function() {
+
+	$("#dBat").click(function() {
+		if (tabExtended[2] == false) {
 			$(this).animate ({
 				width: "610px",
 				height: "480px",
@@ -57,9 +84,13 @@ $(document).ready(function() {
 			}, 250, function() {
 
 			});
-	});
 
-	$("#dBat").mouseleave(function() {	
+			$("#Battext").show(100);
+			$("#buttext3").hide();
+
+			tabExtended[2] = !tabExtended[2];
+
+		} else {
 			$(this).animate ({
 					width: "150px",
 					height: "50px",
@@ -67,13 +98,21 @@ $(document).ready(function() {
 			}, 250, function() {
 
 			});
+
+			$("#Battext").hide(100);
+			$("#buttext3").show();
+
+			tabExtended[2] = !tabExtended[2];
+		};
 	});
 
 
 
 
 
-	$("#dElInd").mouseenter(function() {
+
+	$("#dElInd").click(function() {
+		if (tabExtended[3] == false) {
 			$(this).animate ({
 				width: "610px",
 				height: "690px",
@@ -81,9 +120,13 @@ $(document).ready(function() {
 			}, 250, function() {
 
 			});
-	});
 
-	$("#dElInd").mouseleave(function() {	
+			$("#ElIndtext").show(100);
+			$("#buttext4").hide();
+
+			tabExtended[3] = !tabExtended[3];
+
+		} else {
 			$(this).animate ({
 					width: "150px",
 					height: "50px",
@@ -91,13 +134,21 @@ $(document).ready(function() {
 			}, 250, function() {
 
 			});
+
+			$("#ElIndtext").hide(100);
+			$("#buttext4").show();
+
+			tabExtended[3] = !tabExtended[3];
+		};
 	});
 
 
 
 
 
-	$("#dOpf").mouseenter(function() {
+
+	$("#dOpf").click(function() {
+		if (tabExtended[4] == false) {
 			$(this).animate ({
 				width: "610px",
 				height: "1690px",
@@ -111,9 +162,13 @@ $(document).ready(function() {
 			}, 250, function() {
 
 			});
-	});
 
-	$("#dOpf").mouseleave(function() {	
+			$("#Opftext").show(100);
+			$("#buttext5").hide();
+
+			tabExtended[4] = !tabExtended[4];
+
+		} else {
 			$(this).animate ({
 					width: "150px",
 					height: "50px",
@@ -127,5 +182,11 @@ $(document).ready(function() {
 			}, 250, function() {
 
 			});
+
+			$("#Opftext").hide(100);
+			$("#buttext5").show();
+
+			tabExtended[4] = !tabExtended[4];
+		};
 	});
 });
