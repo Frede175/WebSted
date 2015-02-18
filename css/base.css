@@ -3,6 +3,11 @@
 	padding: 0px;
 }
 
+body {
+	height: 100%;
+	background-color: #FFF8A6;
+}
+
 #header {
 	width: 100%;
 	min-width: 1366px;
@@ -91,7 +96,7 @@
 }
 
 #iback {
-	min-height: 643px;
+	min-height: 100%;
 }
 
 #hback {
