@@ -25,6 +25,5 @@ function update(form) {
 	p.name = "p_rigtige";
 	p.type = "hidden";
 	p.value = score;
-	alert("Du fik " + score + " ud af 10 rigtige!");
 	form.submit();
 }

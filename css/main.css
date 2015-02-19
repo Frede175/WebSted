@@ -3,7 +3,8 @@
 	text-align: center;
 	top: 130px;
 	font-size: 57px;
-	left: 40%;
+	left: 0; right: 0;
+	margin: auto;
 	font-family: Times;
 	font-weight: 700;
 	font-style: underline;
