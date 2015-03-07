@@ -9,13 +9,13 @@
 
 	$visited = $count[0];
 	$p = $correct + 1;
-	$totalCorrect = $count[$p];
+	$totalCorrect = $count[$p]-1;
 ?>
 
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Stats</title>
+		<title>Statistik</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<link rel="stylesheet" type="text/css" href="css/base.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -36,7 +36,7 @@
 		</div>
 
 		<div class="back" id="iback">
-			<p id="hometitle"><u>Stats</u></p>
+			<p id="hometitle"><u>Statistik</u></p>
 
 	<div class="sidesep" id="sep1"> </div>
 
