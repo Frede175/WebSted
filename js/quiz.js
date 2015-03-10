@@ -1,29 +1,53 @@
 function update(form) {
 	var score = 0;
+	var answers = {};
 
-	for (var i=1; i<10; i++) {
-		var answer = $("#answer_"+i);
-		if (answer.is(":checked") == true)
+	for(var i = 1; i < 11; i++) {
+		var id = 'sp' + i;
+		if(i != 5) {
+			answers[id] = getRadioId(document.getElementById(id), "spørgsmål1");
+			alert(answers[id]);
+			if(answers[id] == "answer_" + id) {
+				score++;
+			}
+		}
+		else
 		{
-		 	score++;
+			var tanswer = $("#tanswer_1");
+			answers[id] = tanswer.val().toLowerCase();
+			if(answers[id] == "køge") {
+				score++;
+			}
 		}
 	}
 
+	answers["score"] = score;
 
-	for(var i = 1; i<2; i++){
-		var tanswer = $("#tanswer_"+i);
+	$.ajax({
+		url: '../includes/updatetable.php',
+		type: 'POST',
+		dataType: 'JSON',
+		data: {data: answers}
+	})
+	.always(function() {
+		document.location = 'stats.php';
+		alert("hello");
+	})
+	.fail(function() {
+		alert("error");
+	});
+}
+function getRadioId(form, name) {
+	var id;
 
-		if (tanswer.val().toLowerCase() == "køge") 
-			{
-				score++;
-			}
+	var radios = form.elements[name];
+
+	for(var i = 0; i < radios.length; i++) {
+		if(radios[i].checked) {
+			id = radios[i].id;
+			break;
+		}
 	}
 
-
-	var p = document.createElement('input');
-	form.appendChild(p);
-	p.name = "p_rigtige";
-	p.type = "hidden";
-	p.value = score;
-	form.submit();
+	return id;
 }

@@ -3,18 +3,22 @@
 	session_id('var');
 	session_start();
 
-	if(isset($_POST['p_rigtige'])) {
-		$p = $_POST['p_rigtige'];//mysqli_real_escape_string($mysqli, $_POST['p_rigtige']);
-
+	if(isset($_POST['data'])) {
+		
+		$data = $_POST['data'];//mysqli_real_escape_string($mysqli, $_POST['p_rigtige']);
+		
+		$p = mysqli_real_escape_string($mysqli, $data['score']);
+		
+		$_SESSION['data'] = $data;
+		
 		$type = 'correct_' . $p;
-
+		
 		$preparestr = "SELECT count FROM score";
 		if($stmt = $mysqli->query($preparestr)) {
 			$x = 0;
 
 			while($row = mysqli_fetch_assoc($stmt)) {
 				$count[] = $row['count'];
-				echo '<p>' . $count[$x] . '</p>';
 				$x++;
 			}
 
@@ -23,7 +27,7 @@
 			$visited = $count[0] + 1;
 			$correct = $count[$p] + 1;
 
-			echo '<p>' . $type . ' ' . $correct . '</p>';
+			
 			
 
 			//$updatestr = "UPDATE score SET count='$visited' WHERE type='visited'";
@@ -38,12 +42,12 @@
 
 			if($mysqli->query($updatestr)) {
 
-				echo '<p>' . $mysqli->affected_rows . '</p>';
+				
 
 				if($mysqli->affected_rows == 2){
 					$p--;
 					$_SESSION['correct'] = $p;
-					echo '<p>' . $_SESSION['correct'] . '</p>';
+					
 					header('Location: ../stats.php');
  
 				}
