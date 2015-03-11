@@ -6,7 +6,6 @@ function update(form) {
 		var id = 'sp' + i;
 		if(i != 5) {
 			answers[id] = getRadioId(document.getElementById(id), "spørgsmål1");
-			alert(answers[id]);
 			if(answers[id] == "answer_" + id) {
 				score++;
 			}
