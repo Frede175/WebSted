@@ -30,10 +30,8 @@ function update(form) {
 	})
 	.always(function() {
 		document.location = 'stats.php';
-		alert("hello");
 	})
 	.fail(function() {
-		alert("error");
 	});
 }
 function getRadioId(form, name) {
